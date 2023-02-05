@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleChallenge.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <main>
+        <h1>Encriptador de palabrotas</h1> <br>
+        <h3>Hola, bienvenido al encriptador de palabrotas, con el podrás cambiar <br>
+            letras de tus textos para volverlos indecifrables, así podrás guardar <br>
+            desde las instrucciones para fabricar una <span id="text1"><a href="https://www.youtube.com/watch?v=3kMgieHlgR0">bomba nuclear casera &#128520</a></span>, hasta <br>
+            los nombres de tus <span id="text2">crushes	&#128525</span> para q no los sepa nadie. Diviertete!
+        </h3>
+
+        <textarea id="textoEncriptar" required minlength="1" maxlength="1000" placeholder="Pon tu texto aquí"></textarea> <br>
+
+        <input name="encriptarBoton" type="button" id="encriptarBoton" value="Encriptar">
+        <input name="desencriptarBoton" type="button" id="desencriptarBoton" value="Desencriptar"> <br>
+
+        <textarea name="textoDesencriptado" id="textoDesencriptado" required minlength="1" maxlength="1000"></textarea> <br>
+
+        <input name="copiar" type="button" id="copiar" value="Copiar">
+
+    </main>
+
+    <script src="scriptChallenge.js"></script>
+
+    <footer>
+        <div class="col-1">
+            <p>Encriptador de palabrotas</p>
+            <p>Todos los derechos reservados® </p>
+            <div class="col-2">
+                <div class="col-1">
+                    <a href="https://twitter.com/aprettyatsign"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/jimmisitop"><i class="bi bi-github"></i></a>
+                </div>
+                <div class="contact">
+                    <p>contact: 
+                    <a href="mailto:jaimevsalas@gmail.com">jaimevsalas@gmail.com</a></p>
+                    <p>linkedIn: 
+                    <a href="https://www.linkedin.com/in/jimmy-studentdev/">Jaime Salas</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

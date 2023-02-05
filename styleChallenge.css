@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(173, 175, 43);
+}
+
+main{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#text1{
+    background-color: black;
+    color: white;
+}
+
+#text1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#text2{
+    background-color: red;
+}
+
+textarea{
+    background-color: rgb(173, 175, 43);
+    border: 5px solid;
+    border-radius: 10px;
+    width: 600px;
+    height: 230px;
+    resize: none;
+    margin: 20px 0 0 0;
+}
+
+#encriptarBoton:hover {
+    background-color: darkblue;
+    transform: scale(1.2);
+}
+
+#encriptarBoton{
+    margin: 5px;
+    margin-right: 80px;
+    padding: 20px 50px;
+    border: 7px solid black;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#desencriptarBoton:hover {
+    background-color: darkblue;
+    transform: scale(1.2);
+}
+
+#desencriptarBoton{
+    margin: 5px;
+    padding: 20px 50px;
+    border: 7px solid black;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#copiar{
+    margin: 5px;
+    padding: 20px 50px;
+    border: 7px solid black;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#copiar:hover {
+    background-color: darkblue;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(129, 143, 5);
+    color: white;
+    padding-bottom: 0.5%;
+    margin-top: 35px;
+}
+
+footer .col-1 .col-2 .col-1 .bi-twitter{
+    font-size: 50px;
+    padding: 5px;
+    color: black;
+}
+
+footer .col-1 .col-2 .col-1 .bi-twitter:hover{
+    color: rgb(32, 32, 32);
+}
+
+footer .col-1 .col-2 .col-1 .bi-github{
+    font-size: 45px;
+    padding: 5px;
+    color: black;
+}
+
+footer .col-1 .col-2 .col-1 .bi-github:hover{
+    color: rgb(32, 32, 32);
+}
+
+footer .col-1{
+    font-size: 20px;
+}
+
+footer .col-1 .col-2{
+    font-size: 15px;
+}
+
+footer .col-1 .col-2 .contact a{
+    display: flexbox;
+    text-decoration: none;
+}
